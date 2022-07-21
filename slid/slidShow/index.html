@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>最終課題スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4307a3d85e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Kosugi+Maru&family=Train+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="title">
+      ツール・ド・フランス歴代優勝者スライドショー（2007年以降）
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><</button>
+      <img src="https://www.jsports.co.jp/cycle/img/wallpaper/tour_pc_1920.1080.png" width="400" height="300">
+      <button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+      <button onclick="play()"><i class="fa-solid fa-person-biking"></i></button>
+      <button onclick="stop()"><i class="fa-solid fa-circle-stop"></i></button>
+      <button onclick="reset()"><i class="fa-solid fa-reply-all"></i></button>
+    </div>
+    <script src="js/slidShow.js"></script>
+  </body>
+</html>

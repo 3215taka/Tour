@@ -1,0 +1,27 @@
+body {
+  text-align : center;
+
+}
+.main img {
+  height: 480px;
+  width : 720px;
+  vertical-align: middle;
+}
+.navi {
+  text-align: center;
+}
+button {
+  margin: 20px auto;
+  font-size: 40px;
+}
+.title {
+  font-size: xx-large;
+  background-color: yellow;
+}
+.thumbnails .selected {
+  opacity: 1.0;
+}
+html{
+  font-family: 'DotGothic16', sans-serif;
+}
+
